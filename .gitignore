@@ -1,0 +1,37 @@
+#Model outputs(large files— regenerate with train.py)
+outputs/models/
+outputs/scalers/
+
+#Dataset(download from Kaggle)
+data/city_day.csv
+
+#Python
+__pycache__/
+*.py[cod]
+*.pyo
+.Python
+*.egg-info/
+dist/
+build/
+
+#Environments
+.env
+.venv
+venv/
+env/
+
+#Jupyter
+.ipynb_checkpoints/
+*.ipynb
+
+#IDE
+.vscode/
+.idea/
+*.code-workspace
+
+#OS
+.DS_Store
+Thumbs.db
+
+#Streamlit
+.streamlit/secrets.toml
